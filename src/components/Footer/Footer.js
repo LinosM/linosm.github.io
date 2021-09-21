@@ -22,18 +22,6 @@ const FooterSection = styled.div`
 function Footer() {
   return (
     <FooterSection>
-      <div className="Container">
-        <span>
-          Coded with 💙 by{" "}
-          <a
-            href="https://github.com/gurupawar//"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @gurupawar
-          </a>{" "}
-        </span>
-      </div>
     </FooterSection>
   );
 }

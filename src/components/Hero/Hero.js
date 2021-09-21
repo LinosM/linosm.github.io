@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
+import ProfilePic from "../../Assets/images/face2_transparent.png"
 import {
   HeroContainer,
   HeroWrapper,
@@ -23,15 +24,12 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm Gurushesh</h1>
-            <h5>Frontend Developer</h5>
-            <p>
-              I design and code beautifully simple things, and I love what I do.
-            </p>
+            <h1>Hi, I'm Duy Nguyen</h1>
+            <h5>Full-Stack Developer</h5>
           </HeroLeft>
           <HeroRight>
             <Image
-              src="https://gurupawar.github.io/portfolio/assets/man-svgrepo-com.svg"
+              src={ProfilePic}
               alt="man-svgrepo"
             />
           </HeroRight>

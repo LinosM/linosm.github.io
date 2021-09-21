@@ -1,38 +1,61 @@
+import streamflow from "../Assets/images/streamflow.png";
+import subTracker from "../Assets/images/subtracker.PNG";
+import empDir from "../Assets/images/employee-dir.png";
+import weather from "../Assets/images/weather.png";
+import laughs from "../Assets/images/laughs.JPG";
+import html from "../Assets/images/icons/html5.svg";
+import css from "../Assets/images/icons/css3.svg";
+import js from "../Assets/images/icons/javascript.svg";
+import bootstrap from "../Assets/images/icons/bootstrap.svg";
+import git from "../Assets/images/icons/git.svg";
+import responsive from "../Assets/images/icons/responsive.svg";
+import bulma from "../Assets/images/icons/bulma.png";
+import mongo from "../Assets/images/icons/mongo.png"
+
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "https://gurupawar.github.io/portfolio/assets/project_1.png",
-    title: "Spense",
-    description: "Codewell challenge, Spense is a landing page for writers.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://github.com/gurupawar/spense",
-    demo_url: "https://gurupawar.github.io/spense/",
+    img: streamflow,
+    title: "StreamFlow",
+    description: "StreamFlow is a project management application where users can create a profile to manage solo and team projects. Each project allows users to create tasks that can be assigned to users and have due dates and levels of urgency.",
+    tech_stack: "React, JavaScript, NodeJS, Bulma CSS, MomentJS, MongoDB, Express",
+    github_url: "https://github.com/imanid-code/streamflow",
+    demo_url: "https://streamflowteam4.herokuapp.com/",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/project_2.png",
-    title: "Fiber",
+    img: subTracker,
+    title: "Subscription Tracker",
     description:
-      "An online portfolio generator. Great to practice flex/grid layouts, absolute positioning and sliders.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://github.com/gurupawar/fiber",
-    demo_url: "https://gurupawar.github.io/fiber/",
+      "Subscription Tracker is an application that tracks various recurring subscriptions and costs laid out neatly via a list and calendar.",
+    tech_stack: "JavaScript, HTML, MySQL, jQuery, Sequelize, Tailwind CSS, MomentJS, Passport, Full Calandar",
+    github_url: "https://github.com/JaredWeaver/Subscription-Tracker",
+    demo_url: "https://subscription-trkr.herokuapp.com/",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/portfolio.png",
-    title: "Portfolio",
-    description: "Ofcourse i made my own personal portfolio website.",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://github.com/gurupawar/portfolio-react",
-    demo_url: "https://gportfolio.vercel.app/",
+    img: empDir,
+    title: "Employee Directory",
+    description: "A React application that uses the Random User Generator API to generate a list of users for a fake employee list.",
+    tech_stack: "React, JavaScript, Bootstrap",
+    github_url: "https://github.com/LinosM/employee-directory",
+    demo_url: "https://linosm.github.io/employee-directory/",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/project_3.png",
-    title: "Ecommerce website",
+    img: weather,
+    title: "Weather Dashboard",
     description:
-      "Created simple ecommerce website using reactjs and react-use-cart plugin.",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://github.com/gurupawar/ecommerce-react-app",
-    demo_url: "https://ecommerce-react-app.vercel.app/",
+      "This application ultilizes the OpenWeather API to show the current weather conditions along with the forcast for the next 5 days. The last 10 cities searched are also saved and stored on the left-hand side of the page.",
+    tech_stack: "JavaScript, HTML, Bootstrap, jQuery",
+    github_url: "https://github.com/LinosM/WeatherDashboard",
+    demo_url: "https://linosm.github.io/WeatherDashboard/",
+  },
+  {
+    img: laughs,
+    title: "Laughs & Eats",
+    description:
+    "Laughs & Eats lists restaurants in your area along with several jokes to use for your date!",
+    tech_stack: "JavaScript, HTML, Bootstrap, jQuery",
+    github_url: "https://github.com/kcrammer/Laughs-and-Eats",
+    demo_url: "https://kcrammer.github.io/Laughs-and-Eats/",
   },
 ];
 
@@ -40,31 +63,35 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/html5.svg",
+    img: html,
     name: "HTML",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/css3.svg",
+    img: css,
     name: "CSS",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/javascript.svg",
+    img: js,
     name: "JavaScript",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/bootstrap.svg",
+    img: bootstrap,
     name: "Bootstrap",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/sass.svg",
-    name: "Scss",
-  },
-  {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/git.svg",
+    img: git,
     name: "Git",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/responsive.svg",
+    img: responsive,
     name: "Responsive",
+  },
+  {
+    img: bulma,
+    name: "Bulma",
+  },
+  {
+    img: mongo,
+    name: "MongoDB",
   },
 ];

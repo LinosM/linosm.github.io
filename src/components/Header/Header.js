@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import ReactIcon from "../../Assets/images/icons/React-icon.svg"
 
 const Header = ({ toggle }) => {
   return (
@@ -7,7 +8,7 @@ const Header = ({ toggle }) => {
       <Nav>
         <Logo to="/">
           <img
-            src="https://gurupawar.github.io/portfolio/assets/logo.png"
+            src={ReactIcon}
             alt="logo"
           />
         </Logo>
@@ -25,7 +26,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://github.com/gurupawar/"
+            href="https://docs.google.com/viewer?url=docs.google.com/document/d/1AGf4_QWISPB60YmLDCcU3z_fe5zt7Ugp2dTCYLAKnJ0/export?format=pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

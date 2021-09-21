@@ -2,7 +2,7 @@
 
 ## Preview
 
-![preview](https://i.imgur.com/YbkxgqU.png)
+![preview](https://i.imgur.com/1fe1Elp.png)
 
 ## Credits
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
-import ProfilePic from "../../Assets/images/face2_transparent.png"
+import ProfilePic from "../../Assets/images/face2_circle.png"
 import {
   Image,
   Technologies,

@@ -89,7 +89,7 @@ function Dropdown({ isOpen, toggle }) {
       <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href="https://github.com/gurupawar/"
+          href="https://docs.google.com/viewer?url=docs.google.com/document/d/1AGf4_QWISPB60YmLDCcU3z_fe5zt7Ugp2dTCYLAKnJ0/export?format=pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
